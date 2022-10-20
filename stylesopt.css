@@ -1,35 +1,41 @@
     /* Hoja de Estilos para Options */
 
-    <!--Subclase cuando se tienen diferentes estados-->
-    a:hover {
-        text-decoration: underline;
-        color: green;
-    }
-
     body {
         text-decoration: none;
         background-color: black;
         color:white;
     }
-
-
-    p {
-        /*
-        border-width: 10px;
-        border-color: blue;
-        border-style: solid;
-        */
-        /*shorthand*/
-        border: 10px solid blue;
-
-        /*shorthand*/
-        padding: 20px 15px 50px 10px;
-        /*En este orden*/
-
-        /*margin top*/
-        /*margin right*/
-        /*margin bottom*/
-        /*margin left*/
-
-        
+    h1{
+        text-align: center;
     }
+    h3{
+        text-align: center;
+    }
+    h1, h3{
+        color: white;
+    }
+    /*Format for dropdown menu*/
+    .dropdown {
+        display: inline-block;
+        position: relative;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        width: 100%;
+        overflow: auto;
+        box-shadow: 0px 10px 10px 0px rgba(59,131,189,0.4);
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .dropdown-content a {
+        display: block;
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+      }
+      .dropdown-content a:hover {
+        color: #FFFFFF;
+        background-color: #00A4BD;
+      }
