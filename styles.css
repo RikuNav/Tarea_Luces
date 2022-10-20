@@ -1,4 +1,15 @@
-    /* Hoja de Estilos para Options */
+<!--Hoja de estilo Interna-->
+    /* Asi tambien se ponen comentarios */
+
+    /* selector {
+        propiedad:valor
+    }
+    */
+
+    a {
+        text-decoration: none;
+        color: red;
+    }
 
     <!--Subclase cuando se tienen diferentes estados-->
     a:hover {
@@ -7,11 +18,8 @@
     }
 
     body {
-        text-decoration: none;
-        background-color: black;
-        color:white;
+        background-color: aquamarine;
     }
-
 
     p {
         /*
