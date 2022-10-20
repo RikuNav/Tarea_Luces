@@ -70,7 +70,7 @@
       margin: 0;
     }
     .navbar a:hover, .dropdown:hover .dropbtn {
-      background-color: red;
+      background-color:rgba(59,131,189,0.4);
     }
     .dropdown-content {
       display: none;
